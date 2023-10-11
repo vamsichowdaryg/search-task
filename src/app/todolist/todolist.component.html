@@ -1,0 +1,40 @@
+<!-- <p>todolist works!</p>
+<div class="input-group mb-3">
+  <input
+    type="search"
+    class="form-control"
+    [(ngModel)]="searchTerm"
+    placeholder="Search..."
+    aria-label="Search"
+    aria-describedby="basic-addon2"
+    list="search_list"
+  />
+  <datalist id="search_list" *ngIf="">
+    <option value="o">hi</option>
+  </datalist>
+
+  <div class="input-group-append">
+    <button class="btn btn-primary" (click)="search()">Search</button>
+  </div>
+</div> -->
+<p>todolist works!</p>
+<div class="input-group mb-3">
+  <input
+    type="search"
+    class="form-control"
+    [(ngModel)]="searchTerm"
+    placeholder="Search..."
+    aria-label="Search"
+    aria-describedby="basic-addon2"
+    list="search_list"
+  />
+  <datalist id="search_list">
+    <option value="hi"></option>
+    <option value="hi"></option>
+    <!-- Add more options as needed -->
+  </datalist>
+
+  <div class="input-group-append">
+    <button class="btn btn-primary" (click)="search()">Search</button>
+  </div>
+</div>
