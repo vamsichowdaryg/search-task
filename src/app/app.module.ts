@@ -7,10 +7,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TodolistComponent } from './todolist/todolist.component';
+import { FormComponent } from './form/form.component';
 @NgModule({
   declarations: [
     AppComponent,
-    TodolistComponent
+    TodolistComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
